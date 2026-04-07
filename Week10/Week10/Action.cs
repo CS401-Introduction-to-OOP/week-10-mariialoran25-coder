@@ -15,4 +15,11 @@ public class Action
         ChangeCharactiristics = changeCharactiristics;
     }
     
+    public override string ToString()
+    {
+        return $"Number of Move : {NumOfMove}, Description: {Description},Type Of Action: {TypeOfAction},Change of Charactiristic: {ChangeCharactiristics} ";
+    }
+    
+   
+    
 }
