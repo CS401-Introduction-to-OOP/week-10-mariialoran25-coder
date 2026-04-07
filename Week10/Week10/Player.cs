@@ -31,6 +31,6 @@ public class Player
 
     public override string ToString()
     {
-        return $"Name: {Name}, Role: {Role},Level {Level},Count OF Health: {CountOFHealth}" ;
+        return $"Name: {Name}, Role: {Role},Level {Level},Count OF Health: {CountOFHealth}, Count of Gold: {Gold}" ;
     }
 }
